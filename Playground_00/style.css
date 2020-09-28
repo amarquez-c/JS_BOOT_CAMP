@@ -1,0 +1,61 @@
+/* Hoja de Estilos */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotel-container {
+    width: 70%;
+    margin: auto;
+}
+.hotel-header > h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.hotel-item {
+    padding: 32px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.responsive {
+    max-width: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.hotel-entry {
+    width: 300px;
+}
+
+.item-name {
+    text-transform: uppercase;
+    color: #666666;
+    font-size: 20px;
+}
+
+.item-description {
+    text-transform: lowercase;
+    font-size: 16px;
+    display: block;
+}
+
+.item-telephone > h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.star-black {
+    font-size: 20px;
+    color: black;
+}
+
+.star-orange {
+    font-size: 20px;
+    color: orange;
+}
+
