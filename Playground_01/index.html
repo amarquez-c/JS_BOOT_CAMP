@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <img class="responsive" src="img/avatar.jpg" alt="avatar">
+
+        <div class="formulario">
+            <div class="item">
+                <label class="etiqueta" for="name">Nombre</label>
+                <input class="entrada" type="text" id="name" name="name">
+            </div>
+
+            <div class="item">
+                <label class="etiqueta" for="surname">Apellido</label>
+                <input class="entrada" type="text" id="surname" name="surname">
+            </div>           
+        </div>
+        <div class="button-container">
+            <button class="boton" onclick="console.log(document.getElementById('name').value)">Update</button>
+        </div>        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
