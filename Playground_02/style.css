@@ -1,0 +1,55 @@
+/* Hoja de Estilos */
+
+body {
+    font-family: "Open Sans";
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+.hotel-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.hotel-description {
+    display: flex;
+    background-color: #e9e9e9;
+    margin: 8px;
+    padding: 8px;
+}
+
+.hotel-evaluation {
+    width: 400px;
+    background-color: #e9e9e9;
+    margin: 8px;
+    padding: 8px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.responsive {
+    max-width: 50%;
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+}
+
+
+
+.label1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.label2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+}
