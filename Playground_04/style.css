@@ -1,0 +1,49 @@
+/* Hoja de Estilos */
+
+body {
+    font-family: "Open Sans";
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+.res-container {
+   
+}
+
+.operador{
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 3px;  
+    text-align: right;
+}
+
+.teclado {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.button-op {
+    width: 20%;
+    font-size: 32px;
+    padding: 8px;
+}
+
+.button-res-container {
+    text-align: center;
+}
+
+.button-res {
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+

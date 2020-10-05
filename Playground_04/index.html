@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class= "header">
+            <h2>CALCULADORA</h2>
+        </div>
+        <div class="res-container">
+            <input class="operador" type="text" name="operador" id="operador">
+        </div>
+        <div class="teclado">
+            <button class="button-op" onclick="suma();">+</button>
+            <button class="button-op" onclick="resta();">-</button>
+            <button class="button-op" onclick="mult();">*</button>
+            <button class="button-op" onclick="div();">/</button>
+        </div>
+        <div class="button-res-container">
+            <button class="button-res" onclick="muestraResultado();">Resultado</button>
+            <h2 id="result" class="result"></h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
